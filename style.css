@@ -32,6 +32,7 @@ a:visited{
     flex-wrap: wrap;
     justify-content: center;
     z-index: 5;
+    gap: 30px
 }
 
 .nav_link{
