@@ -89,6 +89,7 @@ a:visited{
 .teams{
     padding: 10px;
     display: flex; 
+    flex-wrap: wrap;
 }
 
 .name_team{
