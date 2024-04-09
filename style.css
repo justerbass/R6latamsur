@@ -183,6 +183,10 @@ a:visited{
     border-style: dotted;
 }
 
+.game:hover{
+    border-color: white;
+}
+
 .day_1{
     grid-column: 1;
     grid-row: 1;   
