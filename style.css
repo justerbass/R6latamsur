@@ -36,22 +36,55 @@ a:visited{
     object-fit: cover;
 }
 
+.menu{
+    display: flex;
+    font-size: 1.5rem; 
+}
+
 .nav_link{
     margin: 25px;
        
 }
 
-.nav_img{
-    margin: 25px;
+.nav_link:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 .redes{
     display: flex;
 }
 
-.menu{
-    display: flex;
-    font-size: 1.5rem; 
+.nav_img{
+    margin: 25px;
+}
+
+.img_redes{
+    position: relative;
+}
+
+.img_black{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.img_color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.img_redes:hover .img_color{
+    opacity: 1;
+}
+
+.img_redes:hover .img_black{
+    opacity: 0;
 }
 
 .title{
