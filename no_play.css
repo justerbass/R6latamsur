@@ -39,8 +39,13 @@ body{
     max-height: 100px;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 
+}
 
+.back:hover{
+    background-color: rgb(206, 30, 139, 0.9);
+    color: black;
 }
 
 .next_match{
