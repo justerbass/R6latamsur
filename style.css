@@ -38,6 +38,7 @@ a:visited{
     display: flex;
     font-size: 1.5rem; 
     text-transform: uppercase;
+    position: relative;
 }
 
 .nav_link{
@@ -229,7 +230,7 @@ a:visited{
 
 .caster_box{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -245,4 +246,10 @@ a:visited{
 .cast{
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+.player:hover{
+    color: rgb(255, 215, 0);
+    text-transform: uppercase;
+    font-weight: bolder;
 }
