@@ -186,48 +186,6 @@ a:visited{
     border-color: white;
 }
 
-.day_1{
-    grid-column: 1;
-    grid-row: 1;   
-}
-
-.day_2{
-    grid-column: 2;
-    grid-row: 1;
-}
-.day_3{
-    grid-column: 3;
-    grid-row: 1;
-}
-.day_4{
-    grid-column: 1;
-    grid-row: 2;
-}
-.day_5{
-    grid-column: 2;
-    grid-row: 2;   
-}
-.day_6{
-    grid-column: 3;
-    grid-row: 2;
-}
-.day_7{
-    grid-column: 1;
-    grid-row: 3;
-}
-.day_8{
-    grid-column: 2;
-    grid-row: 3;
-}
-.day_9{
-    grid-column: 3;
-    grid-row: 3;
-}
-.day_10{
-    grid-column: 1;
-    grid-row: 4;
-}
-
 .caster_box{
     display: flex;
     gap: 20px;
